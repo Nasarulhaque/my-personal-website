@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+h1{
+    font-size: 45px;
+}
+h2{
+    font-size: 35px;
+}
+p{
+    color: dimgrey;
+}
+.pink-highlight{
+    color: hotpink;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.half-width{
+    width: 35%;
+    float: left;
+    margin: 5%;
+    padding: 2%;
+    height: 100%;
+}
+.half-width img{
+    width: 100%;
+    height: 100%;
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: whitesmoke;
+    font-weight: 700;
+}
+.button:hover{
+    color:black;
+    font-size: 18px;
+}
+.biography{
+    background-image: url("images/biography-banner.png");
+    background-repeat: no-repeat;
+    
+}
+.center{
+    text-align: center;
+    font-size: 50px;
+}
+.img-container img{
+    float: left;
+    width: 30%;
+    margin-left: 2%;
+    padding-left: 1%;
+}
+.work-banner{
+    background-image: url("images/work-background.png");
+    background-repeat: no-repeat;
+}
+#address{
+    margin: auto;
+    width: 45%;
+    border: 3px solid pink;
+    padding: 20px;
+    background-color: hotpink;
+    color: whitesmoke;
+    font-size: 40px;
+    text-align: center;
+    border-radius: 10px;
+    background-image: linear-gradient( pink, hotpink);
+    box-shadow: 5px 5px 20px hotpink
+}
+#address:hover{
+    color: black;
+}
+
+.footer-banner{
+    background-image: url("images/footer-banner.png");
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
+}
+
+
